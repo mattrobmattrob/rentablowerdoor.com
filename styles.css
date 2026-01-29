@@ -334,26 +334,29 @@ form .btn {
     font-size: 1.125rem;
 }
 
-/* Contact */
-.contact {
+/* Questions */
+.questions {
     background: var(--dark);
     color: var(--white);
-    text-align: center;
     padding: 4rem 2rem;
 }
 
-.contact h2 {
+.questions h2 {
     color: var(--white);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
-.contact a {
-    color: var(--primary);
-    text-decoration: none;
+.question-form {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.contact a:hover {
-    text-decoration: underline;
+.questions label {
+    color: var(--light);
+}
+
+.questions .btn-primary {
+    width: 100%;
 }
 
 /* Footer */
