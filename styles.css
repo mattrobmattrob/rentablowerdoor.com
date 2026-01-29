@@ -5,13 +5,13 @@
 }
 
 :root {
-    --primary: #2563eb;
-    --primary-dark: #1d4ed8;
-    --secondary: #64748b;
-    --dark: #1e293b;
-    --light: #f8fafc;
+    --primary: #e63312;
+    --primary-dark: #c42a0e;
+    --secondary: #6b7280;
+    --dark: #1f2937;
+    --light: #f3f4f6;
     --white: #ffffff;
-    --border: #e2e8f0;
+    --border: #e5e7eb;
 }
 
 body {
@@ -114,11 +114,12 @@ nav a:hover {
 
 .hero .btn {
     background: var(--white);
-    color: var(--primary);
+    color: var(--dark);
 }
 
 .hero .btn:hover {
     background: var(--light);
+    color: var(--primary);
 }
 
 /* Sections */
